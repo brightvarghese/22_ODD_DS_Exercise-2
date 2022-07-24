@@ -7,7 +7,7 @@ Every integer and operator will be separated by a SPACE.
 
 The idea is to traverse the given expression from left to right. If the current character of the expression is an operand, push it into the stack; otherwise, if the current character is an operator, pop the top two elements from the stack, evaluate them using the current operator and push the result back into the stack. When all the expression characters are processed, we will be left with only one element in the stack containing the value of a postfix expression.
 
-#Constraints
+# Constraints
 NA
 
 
