@@ -1,5 +1,5 @@
 class Evaluate:
-  """This class vaildates and evaluate postfix expression.
+  """This class validates and evaluate postfix expression.
   Attributes:
       top: An integer which denotes the index of the element at the top of the stack currently.
       size_of_stack: An integer which represents the size of stack.
