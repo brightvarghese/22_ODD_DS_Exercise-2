@@ -11,9 +11,7 @@ class Evaluate:
   def __init__(self, size):
     """Inits Evaluate with top, size_of_stack and stack.
     Arguments:
-      top:An integer which points to the top most element in the stack.
-      size_of_stack: An integer which represents size of stack.
-      stack: A list which maintians the elements of stack.
+      size_of_stack: An integer to set the size of stack.
     """
     self.top = -1
     self.size_of_stack = size
